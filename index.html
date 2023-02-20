@@ -1,0 +1,360 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Content Navbar -->
+    <nav class="flex items-center h-[75px] bg-[#082173]">
+      <img class="h-[60px] px-[60px]" src="img/icon.png" alt="" />
+      <div>
+        <div class="m-40 xl:w-96 items-center">
+          <div class="input-group relative flex">
+            <input type="search" class="form-control relative px-5 py-2 w-[300px] text-base font-normal rounded " placeholder="search a product" >
+            <button class="px-5 py-2 bg-yellow-500 text-white rounded hover:bg-blue-800 " type="button" id="button-addon2">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex h-[30px] mx-[300px] w-[250px]">
+        <div class="text-white pl-[30px]">
+          <i class="fas fa-heart"><a href="#" class="font-sans font-normal px-3  hover:text-yellow-400">Favorite</a></i>
+        </div>
+        <div class="text-white pl-[30px]">
+          <i class="fas fa-shopping-cart"><a href="#" class="font-sans font-normal px-3  hover:text-yellow-400">Cart</a></i>
+        </div>
+        <div class="text-white pl-[30px]">
+          <i class="fas fa-user"><a href="#" class="font-sans font-normal px-3  hover:text-yellow-400">Account</a></i>
+        </div>
+      </div>
+    </nav>
+          <!-- navbar ke-2 -->
+    <div class="flex bg-[#05035a] h-[90px]">
+        <div class="md:flex p-6 mx-8 mt-5 justify-left ">
+          <a href="#" class="py-5 px-3 text-white  hover:text-yellow-400">Home</a>
+          <a href="#" class="py-5 px-3 text-white hover:text-yellow-400">Catalogue </a>
+          <a href="#" class="py-5 px-3 text-white hover:text-yellow-400">Rachat</a>
+          <a href="#" class="py-5 px-3 text-white hover:text-yellow-400">News </a>
+          <a href="#" class="py-5 px-3 text-white hover:text-yellow-400">Events</a>
+        </div>
+    </div>
+  <!--End Content Navbar -->
+
+
+  <!-- Content Page -->
+  <div class="bg-[#05035a] h-[66 0px]">
+      <div class="items-center grid  lg:grid-cols-2 ">
+        <div class=" ml-40 py-50">
+          <h1 class="text-6xl text-white font-bold ">Achetere, revendre & collectioner</h1>
+          <p class="text-slate-300 text-justify font-sans mt-12">
+            Lorean ipsun dolor sit aneat, conseacteatur adipisci ealit, sead eaiusnod teanpor incidunt ut laborea eat dolorea nagna aliqua.
+            Ut eanin ad ninin veanian, quis nostrun eaxearcitationean ullan corporis suscipit laboriosan, nisi ut aliquid eax eaa connodi conseaquatur.
+            Quis autea iurea reapreaheandearit in voluptatea vealit eassea cillun dolorea eau fugiat nulla pariatur.
+            eaxceapteaur sint obcaeacat cupiditat non proideant, sunt in culpa qui officia deasearunt nollit anin id east laborun.
+          </p>
+        </div>
+
+        <div>
+          <div class="flex px-10 gap-5 ">
+            <div class="">
+              <div class="rounded-sm bg-gray-400/50 w-[300px] ">
+                <a href="#!">
+                  <img class="rounded-t-sm h-[300px]" src="img/game1.jpg" alt=""/>
+                </a>
+                <div class="p-5">
+                  <h5 class="text-slate-100 text-xl text-center font-bold mb-2">Pokemon Legends Arceus </h5>
+                  <p class="text-slate-200 font-thin ">
+                    Pokémon Legends: Arceus game, you'll join the Galaxy Team as a member of the Survey Corps.
+                  </p>
+                  <div class="flex mt-5 mb-2">
+                    <p class="text-slate-400">
+                      Price
+                    </p>
+                    <p class="text-slate-100 text-right font-bold ml-40">
+                      US $72,5
+                    </p>
+                  </div>
+                  <button type="button" class="ml-52 px-5 py-2.5 bg-blue-700 text-white font-medium text-xs uppercase rounded-sm  hover:bg-[#082173]">
+                    Buy
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-sm shadow-sm bg-white/20 w-[300px] ">
+              <a href="#!">
+                <img class="rounded-t-sm h-[300px]" src="img/game2.jpg" alt=""/>
+              </a>
+              <div class="p-5">
+                <h5 class="text-slate-100 text-xl text-center font-bold mb-2">Pokemon Lets Go Pikachu</h5>
+                <p class="text-slate-200 font-thin ">
+                  Partner up with Pikachu to catch and collect Pokémon on a rich and vibrant adventure.
+                </p>
+                <div class="flex mt-5 mb-2">
+                  <p class="text-slate-400">
+                    Price
+                  </p>
+                  <p class="text-slate-100 text-right font-bold ml-40">
+                    US $59,9
+                  </p>
+                </div>
+                <button type="button" class="ml-52 px-5 py-2.5 bg-blue-700 text-white font-medium text-xs uppercase rounded-sm  hover:bg-[#082173]">
+                  Buy
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="py-10">
+            <div class="ml-80">
+              <div class="flex text-white font-thin">
+                <p class="pb-3">2/4 Product</p>
+                <div class="pl-36">
+                  <a href="#"><i class="px-7 py-1 fas fa-arrow-left  hover:text-yellow-400"></i></a>
+                  <a href="#"><i class="py-1 fas fa-arrow-right hover:text-yellow-400"></i></a>
+                </div>
+              </div>
+              <div class="border-2 border-yellow-500 w-32"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  <!--End Content Page -->
+
+
+  <!-- Content Product -->
+  <div class="bg-[#082173] h-[570px]">
+    <div class="flex mx-40 py-10 font-sans">
+      <div>
+        <h1 class="text-5xl text-white font-bold ">Product Games</h1>
+        <p class="text-slate-300 mt-5">
+          Lorean ipsun dolor sit aneat, conseacteatur adipisci ealit, sead eaiusnod teanpor incidunt ut laborea eat dolorea nagna aliqua.
+          Ut eanin ad ninin veanian, quis nostrun eaxearcitationean ullan corporis suscipit laboriosan, nisi ut aliquid eax eaa connodi conseaquatur.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex mx-56 my-10 gap-14">
+      <div class="bg-white/10 p-5 rounded-2xl">
+        <img src="img/p1.png" alt="" class="h-20 mx-auto"/>
+        <h4 class="pt-4 text-center text-slate-200  font-bold"> Product Pokemon</h4>
+        <p class="text-sm my-3 font-light text-slate-300 text-justify">
+          Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+        </p>
+      </div>
+
+      <div class="bg-white/10 p-5 rounded-2xl">
+        <img src="img/p2.png" alt="" class="h-20 mx-auto relative"/>
+        <h4 class="pt-4 text-center text-slate-200  font-bold">Product Magic </h4>
+        <p class="text-sm my-3 font-light text-slate-300  text-justify">
+          Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+        </p>
+      </div>
+
+      <div class="bg-white/10 p-5 rounded-2xl">
+        <img src="img/p3.png" alt="" class="h-20 mx-auto"/>
+        <h4 class="pt-4 text-center text-slate-200  font-bold"> Product YuGiOh! </h4>
+        <p class="text-sm my-3 font-light text-slate-300 text-justify">
+          Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+        </p>
+      </div>
+
+      <div class="bg-white/10 p-5 rounded-2xl">
+        <img src="img/p4.png" alt="" class="h-20 mx-auto"/>
+        <h4 class="pt-4 text-center text-slate-200  font-bold">Product Dragon Shield </h4>
+        <p class="text-sm my-3 font-light text-slate-300  text-justify">
+          Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+        </p>
+      </div>
+
+    </div>
+  </div>
+  <!--End Content Product -->
+
+  <!-- Content Favorite -->
+  <div class="bg-[#05035a] h-[700px]">
+   <div class="font-sans">
+        <!-- title -->
+      <div class="flex pt-24">
+        <div class="mx-40">
+          <h1 class="text-5xl text-white font-bold ">New Collections</h1>
+          <p class="text-white mt-5">
+            Lorean ipsun dolor sit aneat, consseacteatur adipisci ealit, sead eaiusnod teanpor incidunt ut laborea.
+          </p>
+          <p class="text-white">
+             Ut eanin ad ninin veanian
+          </p>
+        </div>
+        <div class="mt-24 mx-auto">
+          <div class="text-yellow-500 ">
+            <a href="#" class="font-semibold pl-64">More </a>
+            <i class="px-3 fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- image product -->
+      <div class="flex mx-44 gap-5 pt-10 h-[450px]">
+        <div class="border border-blue-900 bg-white/10 w-[350px]">
+          <div class="text-right p-2">
+            <i class="far fa-heart text-yellow-500 hover:text-yellow-200"></i>
+          </div>
+          <div class="m-4 ">
+            <img src="img/gg2.jpg" alt="" class="h-[280px] mx-auto"/>
+          </div>
+          <h4 class="text-center text-slate-100 font-bold">Magic : Rise Of The Gatewatch</h4>
+        </div>
+
+        <div class="border border-blue-900 w-[350px]">
+          <div class="text-right p-2">
+            <i class="fas fa-heart text-yellow-500 "></i>
+          </div>
+          <div class="p-5 ">
+            <img src="img/gg1.jpg" alt="" class="h-[280px] mx-auto"/>
+            <h4 class="pt-4 text-center text-slate-100 font-bold">Magic : The Visual Guide</h4>
+          </div>
+        </div>
+
+        <div class="border border-blue-900 w-[350px]">
+          <div class="text-right p-2">
+            <i class="far fa-heart text-yellow-500 hover:text-yellow-200 "></i>
+          </div>
+          <div class="p-5 ">
+            <img src="img/gg3.jpg" alt="" class="h-[280px] mx-auto"/>
+            <h4 class="pt-4 text-center text-slate-100 font-bold">Magic : Legend</h4>
+          </div>
+        </div>
+
+        <div class="border border-blue-900 w-[350px]">
+          <div class="text-right p-2">
+            <i class="far fa-heart text-yellow-500 hover:text-yellow-200 "></i>
+          </div>
+          <div class="p-5 ">
+            <img src="img/gg4.jpg" alt="" class="h-[280px] mx-auto"/>
+            <h4 class="pt-4 text-center text-slate-100 font-bold">Magic : Planes Of The Multiverse</h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Content Favorite -->
+
+
+  <!-- Content Events -->
+  <div class="flex bg-[#05035a] h-[700px]">
+    <div class="flex mx-auto my-20 p h-[550px]">
+      <div class="flex bg-[#082173] w-[1200px]">
+        <div class="px-5 py-7 w-[650px]">
+          <img src="img/e11.png" alt="" class="h-[500px] w-full rounded-lg">
+        </div>
+        <div class="w-[500px]">
+            <div class="pl-9 pt-28">
+              <h1 class="text-5xl text-white font-bold">Ours Events</h1>
+              <p class="text-slate-300 text-justify font-light pt-10">
+                Pokémon favorit Anda dari daerah Hoenn Pokémon Ruby dan Pokémon Sapphire hadir di Sunset Park!
+                Tur Pokémon GO: Hoenn - Las Vegas hadir di Nevada pada bulan Februari 2023.
+              </p>
+            </div>
+            <div class="pt-14 pl-72">
+              <div class="border border-yellow-500 w-[230px] h-9 rounded-sm">
+                <p class="text-white text-left px-4 py-1 font-thin">
+                  <a href="#" class="hover:text-yellow-500 ">
+                    See the next event
+                    <i class="pl-14 fas fa-arrow-right"></i>
+                  </a>
+                </p>
+
+              </div>
+            </div>
+            <div class="pt-40">
+                <div class="flex text-white font-thin">
+                  <p class="pb-3">1/8 Photo</p>
+                  <div class="">
+                    <a href="#"><i class="px-7 py-1 fas fa-arrow-left text-yellow-500"></i></a>
+                    <a href="#"><i class="py-1 fas fa-arrow-right text-yellow-500"></i></a>
+                  </div>
+                </div>
+                <div class="border-2 border-yellow-500 w-12"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Content Events -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+</body>
+
+</html>
